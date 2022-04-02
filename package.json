@@ -1,0 +1,71 @@
+{
+  "name": "pixijs-projects",
+  "version": "1.0.0",
+  "description": "Random experiments created with the WebGLRenderer PixiJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --config config/webpack.config.dev.js",
+    "build": "webpack --config config/webpack.config.prod.js",
+    "lint": "eslint --ext .js ./src/js",
+    "lint:fix": "eslint --ext .js --fix ./src/js",
+    "stylelint": "stylelint ./src/sass/**/*.css"
+  },
+  "keywords": [
+    "webpack",
+    "sass",
+    "scss",
+    "swc",
+    "webgl",
+    "pixijs"
+  ],
+  "author": "Elena Bravo",
+  "license": "ISC",
+  "devDependencies": {
+    "@swc/core": "1.2.162",
+    "copy-webpack-plugin": "10.2.4",
+    "cross-env": "7.0.3",
+    "css-loader": "6.7.1",
+    "css-minimizer-webpack-plugin": "3.4.1",
+    "eslint": "8.12.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-config-standard": "16.0.3",
+    "eslint-loader": "4.0.2",
+    "eslint-plugin-import": "2.25.4",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-promise": "6.0.0",
+    "eslint-plugin-standard": "5.0.0",
+    "fibers": "5.0.1",
+    "file-loader": "6.2.0",
+    "html-loader": "3.1.0",
+    "html-webpack-plugin": "5.5.0",
+    "mini-css-extract-plugin": "2.6.0",
+    "postcss": "8.4.12",
+    "postcss-loader": "6.2.1",
+    "postcss-preset-env": "7.4.3",
+    "prettier": "2.6.1",
+    "replace-ext": "2.0.0",
+    "sass": "1.49.10",
+    "sass-loader": "12.6.0",
+    "sass-rem": "3.0.0",
+    "style-loader": "3.3.1",
+    "swc-loader": "0.1.15",
+    "tailwindcss": "3.0.23",
+    "terser-webpack-plugin": "5.3.1",
+    "webpack": "5.71.0",
+    "webpack-cli": "4.9.2",
+    "webpack-dev-server": "4.7.4"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "optionalDependencies": {
+    "@swc/core-darwin-x64": "1.2.162"
+  },
+  "dependencies": {
+    "@pixi/filter-blur": "^6.3.0",
+    "pixi-filters": "^4.1.6",
+    "pixi-spine": "^3.0.13",
+    "pixi.js": "^5.3.12"
+  }
+}
