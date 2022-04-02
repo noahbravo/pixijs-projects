@@ -57,7 +57,8 @@
     "webpack-dev-server": "4.7.4"
   },
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "https://github.com/elenabravo/pixijs-projects.git"
   },
   "optionalDependencies": {
     "@swc/core-darwin-x64": "1.2.162"
