@@ -2,6 +2,7 @@ import * as PIXI from 'pixi.js'
 import { AdjustmentFilter } from 'pixi-filters'
 import { BlurFilter } from '@pixi/filter-blur'
 import nebulaImg from '../../../public/images/nebula.jpg'
+import customCursorImg from '../../../public/images/customcursor.png'
 
 export const masking = () => {
   const pixiElement = document.getElementById('pixi_wrapper')
@@ -66,4 +67,7 @@ export const masking = () => {
   }
 
   app.stage.on('mousemove', moveMask)
+
+  const customCursor = `url(${customCursorImg}), auto`
+  app.renderer.plugins.interaction.cursorStyles.default = customCursor
 }
