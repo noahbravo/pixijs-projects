@@ -1,6 +1,6 @@
 import '../sass/style.sass'
 import { onDocumentReady, importAll } from './functions.js'
-import { masking } from './projects'
+import { masking, containersdDisplacement } from './projects'
 
 // import all html files from pages
 importAll(require.context('../pages', true, /\.html/))
@@ -15,5 +15,6 @@ importAll(
 )
 
 onDocumentReady(function () {
-  masking()
+  // masking()
+  containersdDisplacement()
 })

@@ -65,6 +65,7 @@
   },
   "dependencies": {
     "@pixi/filter-blur": "^6.3.0",
+    "@pixi/filter-displacement": "^6.3.0",
     "pixi-filters": "^4.1.6",
     "pixi-spine": "^3.0.13",
     "pixi.js": "^5.3.12"
